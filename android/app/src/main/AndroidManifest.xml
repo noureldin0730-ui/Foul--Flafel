@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:requestLegacyExternalStorage="true"
-        android:label="Foul & Flafel"
+        android:label="Foul &amp; Falafel"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/NormalTheme">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -25,4 +23,4 @@
             android:name="flutterEmbedding"
             android:value="2"/>
     </application>
-</manifest>
+</manifest>++
