@@ -30,7 +30,7 @@ class HudComponent extends PositionComponent {
     _drawChip(
       canvas,
       Vector2(280, 0),
-      'عربية النور',
+      'Foul & Falafel',
       const Color(0xFF7AD7FF),
     );
   }
